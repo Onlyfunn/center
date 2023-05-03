@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230504001222">
+    <title>Вход</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header header-reg">
+            <div class="header-reg__container header__container">
+                <div class="header-reg__logo">Вход в личный кабинет</div>
+            </div>
+        </header>
+        <main class="main main-reg">
+            <picture><source srcset="img/registration/bg.webp" type="image/webp"><img src="img/registration/bg.png" alt="bg" class="main-reg__bg _bg"></picture>
+            <div class="main__container main-reg__container">
+                <div class="main-reg__body">
+                    <form action="#" class="main-reg__form form-reg">
+                        <div class="form-reg__logo">
+                            <img src="img/logo.svg" alt="logo">
+                        </div>
+                        <div class="form-reg__items">
+                            <div class="form-reg__item item-reg">
+                                <div class="item-reg__title">Номер лицевого счета</div>
+                                <input type="text" class="item-reg__input" id="number">
+                            </div>
+                            <div class="form-reg__item item-reg">
+                                <div class="item-reg__title">Пароль</div>
+                                <input type="text" class="item-reg__input" id="password">
+                            </div>
+                        </div>
+                        <div class="form-reg__error">Неправильный логин или пароль</div>
+                        <input type="checkbox" id="check" class="form-reg__check">
+                        <label for="check" class="form-reg__check-text">Запомнить меня</label>
+                        <button type="submit" class="form-reg__submit" id="enter">Продолжить</button>
+                </div>
+                </form>
+                <h1 class="main-reg__title"><span class="s1">здесь</span><br>
+                    <span class="s2">будет</span><br><span class="s3">ваш слоган</span><br>
+                    <span class="s4">- мы!</span>
+                </h1>
+            </div>
+        </main>
+    </div>
+    <script src="js/app.min.js?_v=20230504001222"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js?_v=20230504001222"></script>
+
+</body>
+
+</html>

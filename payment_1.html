@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230504001222">
+    <title>Электроэнергия</title>
+</head>
+
+<body class="main-main">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <a href="home.html" class="header__logo">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+                <a href="enter.html" class="header__exit">
+                    <img src="img/header/exit.svg" alt="exit">
+                </a>
+                <div class="header__burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <main class="main-main">
+            <div class="main-main__container">
+                <div class="main-main__body">
+                    <nav class="main-main__menu menu">
+                        <div class="menu__body">
+                            <h2 class="menu__title">Личный кабинет</h2>
+                            <div class="menu__img">
+                                <picture><source srcset="img/menu/monkey.webp" type="image/webp"><img src="img/menu/monkey.jpg" alt="monkey"></picture>
+                            </div>
+                            <div class="menu__name">Иванов Иван Иваныч</div>
+                            <div class="menu__number">номер лицевого счета</div>
+                            <div class="menu__items">
+                                <a href="home.html" class="menu__item">
+                                    <div href="" class="menu__link">Мое помещение</div>
+                                </a>
+                                <a href="counters.html" class="menu__item">
+                                    <div href="" class="menu__link">Счетчики</div>
+                                </a>
+                                <a href="payment.html" class="menu__item">
+                                    <div href="" class="menu__link ">Оплата услуг</div>
+                                </a>
+                                <a href="support.html" class="menu__item">
+                                    <div href="" class="menu__link">Поддержка</div>
+                                </a>
+                            </div>
+                            <a href="enter.html" class="menu__exit">
+                                <img src="img/header/exit.svg" alt="exit">
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="main-main__main main-main__payment payment">
+                        <h1 class="payment__title title">Электроэнергия</h1>
+                        <div class="payment__table">
+                            <span></span>
+                            <div class="payment__name name-payment">
+                                <div class="name-payment__title">Тариф</div>
+                                <div class="name-payment__title">Предыдущие показания</div>
+                            </div>
+                            <div class="payment__nums">
+                                <div class="nums-payment__num">3,14</div>
+                                <div class="nums-payment__num">37,89</div>
+                            </div>
+
+                        </div>
+                        <div class="payment__subtitle subtitle">Введите показание счетчиков</div>
+                        <div class="payment__pay">
+                            <input type="text" class="payment__input">
+                            <button class="payment__button">Оплатить</button>
+                        </div>
+                        <div class="payment__body">
+                            <div class="payment__body-inner">
+                                <div class="payment__qr">
+                                    <picture><source srcset="img/payment/qr.webp" type="image/webp"><img src="img/payment/qr.png" alt="qr"></picture>
+                                </div>
+                                <div class="payment__text">Оплата через СПБ<br>либо по <a href="#">ссылке</a></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js?_v=20230504001222"></script>
+    <script src="js/app.min.js?_v=20230504001222"></script>
+</body>
+
+</html>
